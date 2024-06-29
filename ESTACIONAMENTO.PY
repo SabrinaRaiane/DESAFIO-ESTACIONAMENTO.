@@ -9,3 +9,10 @@ def estacionamento(N, clientes):
 
 N = int(input("Número de vagas: ")
 M = int(input("Número de clientes: ")
+clientes = []
+cont = 0
+
+while cont < M:
+    num_cliente = (int(input('Cliente: ')))
+    clientes.append(num_cliente)
+    count += 1
