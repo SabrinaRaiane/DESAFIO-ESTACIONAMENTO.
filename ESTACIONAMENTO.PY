@@ -16,3 +16,6 @@ while cont < M:
     num_cliente = (int(input('Cliente: ')))
     clientes.append(num_cliente)
     count += 1
+
+resposta = estacionamento(N, clientes)
+print(f"O número de carros que poderão estacionar são: {resposta}")
