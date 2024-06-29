@@ -7,8 +7,8 @@ def estacionamento(N, clientes):
     
     return len(intervalo)
 
-N = int(input("Número de vagas: ")
-M = int(input("Número de clientes: ")
+N = int(input("Número de vagas: "))
+M = int(input("Número de clientes: "))
 
 if 1 > N or N > 100000:
     print("O número de vagas deve estar entre 1 e 100000.")
